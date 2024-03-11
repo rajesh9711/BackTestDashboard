@@ -9,6 +9,8 @@ from PIL import Image
 import io
 import os
 import datetime
+import matplotlib
+matplotlib.use('agg')
 import matplotlib.pyplot as plt
 import july
 from july.utils import date_range
